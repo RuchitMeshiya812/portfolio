@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ruchit Meshiya | AI & Data Science Portfolio</title>
+    <meta name="description"
+        content="Portfolio of Ruchit Meshiya, an AI & Data Science Enthusiast specializing in Deep Learning.">
+    <!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Ruchit Meshiya | AI & Data Science Portfolio</title>
+        <meta name="description"
+            content="Portfolio of Ruchit Meshiya, an AI & Data Science Enthusiast specializing in Deep Learning.">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+
+<body>
+    <canvas id="bg-canvas"></canvas>
+    <nav class="navbar">
+        <div class="container nav-content">
+            <div class="logo">RM</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="container hero-content fade-in">
+                <h1 id="hero-name"></h1>
+                <span id="hero-headline" class="hero-subtitle"></span>
+                <div>
+                    <a href="#projects" class="cta-button">View Work</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <div class="container">
+                <h2>About Me</h2>
+                <div class="about-content fade-in">
+                    <p id="about-text"></p>
+                </div>
+            </div>
+        </section>
+
+        <section id="experience" class="experience">
+            <div class="container">
+                <h2>Experience</h2>
+                <div id="experience-list" class="timeline fade-in">
+                    <!-- Dynamic Content -->
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="skills">
+            <div class="container">
+                <h2>Skills</h2>
+                <div id="skills-list" class="skills-grid fade-in">
+                    <!-- Dynamic Content -->
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects">
+            <div class="container">
+                <h2>Projects</h2>
+                <div id="projects-list" class="projects-grid fade-in">
+                    <!-- Dynamic Content -->
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <div class="container fade-in">
+                <h2>Get In Touch</h2>
+                <p>Interested in collaborating or have a question?</p>
+                <div class="contact-links">
+                    <a id="contact-email" href="#" class="contact-btn">Email Me</a>
+                    <a id="contact-linkedin" href="#" target="_blank" class="contact-btn">LinkedIn</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Project Modal -->
+    <div id="project-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2 id="modal-title">Project Title</h2>
+            <p id="modal-description">Project description goes here.</p>
+            <div id="modal-tech" class="project-tech"></div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Ruchit Meshiya. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/data.js"></script>
+    <script src="js/background.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
